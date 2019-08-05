@@ -1,0 +1,44 @@
+﻿
+img {
+    float: left;
+    clear: left;
+}
+.float {
+  float: left;
+}
+h2 {
+    font-size: 60px;
+    text-align: center;
+}
+
+p { 
+    overflow: auto; 
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+}
+
+html {
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    background-image: url("images/background.jpg")
+}
+
+body {
+    width: 1048px;
+    height: 1048px;
+    margin: 10px auto;
+    background-color: #FAF9FA;
+    padding: 30px 30px 30px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+

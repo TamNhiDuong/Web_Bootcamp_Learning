@@ -1,0 +1,55 @@
+* {box-sizing: border-box;}
+.wrapper {
+  max-width: 1048px;
+  margin: 0 auto;
+}
+h2 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.wrapper > div {
+  background-color: #b1e1e7;
+  padding: 5px;
+  color: #18484e;
+}.wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1;
+  grid-row: 1 / 6;
+}
+.two { 
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+}
+.three {
+  grid-column: 2 ;
+  grid-row: 2 / 4 ;
+}
+.four {
+  grid-column: 3;
+  grid-row: 2 / 4;
+}
+.five {
+  grid-column: ;
+  grid-row: 4 / 6;
+}
+.six {
+  grid-column: 3;
+  grid-row: 4 / 6;
+}
+html {
+  font-size: 15px;
+  font-family: 'Handlee', cursive;
+  padding: 30px 30px 10px 10px; 
+} 
+
+footer {
+    margin-top: 64px;   /* Keeps footer a bit separated from main content */
+}
+
+
